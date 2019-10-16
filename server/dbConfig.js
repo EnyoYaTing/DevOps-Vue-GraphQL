@@ -1,7 +1,11 @@
 const mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
 
-const connectionString = 'mongodb+srv://ahah:da18787@cluster0-hlezw.mongodb.net/football?retryWrites=true'
+/*
+The cloud database we used is mLab (https://mlab.com/)
+const connectionString = 'mongodb+srv://[yourID]:[youPW]@cluster0-hlezw.mongodb.net/football?retryWrites=true'
+*/
+const connectionString = 'Your MongoDB URL'
 
 
 mongoose.connect(connectionString, { useNewUrlParser: true });
