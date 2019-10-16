@@ -9,4 +9,15 @@ We hope this project could be a basic framework for people who want to utilise t
 > 5. Apollo-server-express 2.5.0
 > 6. Mongoose 5.5.11
 
+hand :smirk:. 
+
+    .
+    ├── ..
+    ├── client       # Frontend folder
+    ├── docker       # Docker folder to deploy the website
+    ├── robot        # Crawling robot that parse data from football website
+    ├── server       # Server side
+    └── README.md    # Overview of this project 
+
+
 
