@@ -1,0 +1,22 @@
+version: '3'
+services:
+  server:
+    build: server/.
+    command: sh -c "cd /src;npm install;node ./index.js"
+    ports:
+     - "4000:4000"
+    volumes:
+     - /opt/src/vue-web/server:/src
+  client:
+    build: client/.
+    command: sh -c "cd /src;npm install;npm run dev"
+    ports:
+     - "8080:8080"
+    volumes:
+     - /opt/src/vue-web/client:/src
+  robot:
+    build: robot/.
+    command: sh -c "echo \"* 22  * * * root python3 /src/main.py\" >> /etc/crontabs/root;tail -f /dev/null;"
+    volumes:
+     - /opt/src/vue-web/robot:/src
+
