@@ -1,6 +1,6 @@
 # DevOps-Vue-GraphQL
 
-We hope this project could be a basic framework for people who want to utilise these techniques. the techniques are listed belowe and it works well.
+We hope this project could be a basic framework for people who want to utilise these techniques. The techniques are listed below, and it works well :smirk:
 
 > 1. Vue 2.5.2
 > 2. Vue Apollo 3.0.0 beta
@@ -8,8 +8,6 @@ We hope this project could be a basic framework for people who want to utilise t
 > 4. Express 4.17.0
 > 5. Apollo-server-express 2.5.0
 > 6. Mongoose 5.5.11
-
-hand :smirk:. 
 
     .
     ├── ..
@@ -19,5 +17,5 @@ hand :smirk:.
     ├── server       # Server side
     └── README.md    # Overview of this project 
 
-
+This website basically is a DevOps project (football website) since it comprises crawling robots acquiring data automatically, full-stack website structures, docker for deployment.
 
