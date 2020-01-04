@@ -19,3 +19,10 @@ We hope this project could be a basic framework for people who want to utilise t
 
 This website basically is a DevOps project (football website) since it comprises crawling robots acquiring data automatically, full-stack website structures, docker for deployment.
 
+
+# Running website in local machine
+1. turn on the localhost:8000 :
+   # npm run dev 
+  
+2. trigger the service of Enpress.js
+   # node index.js
